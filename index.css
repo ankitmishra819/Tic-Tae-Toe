@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#548687;
+}
+h4{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:30px;
+    color:rgb(186, 181, 100);
+}
+.main{
+    position:absolute;
+    top:12%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+.main .contanir{
+    display: grid;
+    grid-template-columns:110px 110px 110px;
+    grid-gap:10px 10px;
+}
+.btn{
+    color:white;
+    background-color:rgba(123, 159, 51, 0.799);
+    height:75px;
+    font-size:30px;
+    border-radius:18px;
+    border:none;
+}
+.msg{
+    color:rgba(255, 255, 255, 0.942);
+    font-size:25px;
+    text-align: center;
+}
+ .restartBtn{
+    margin-top:20px;
+    margin-bottom:50px;
+    margin-left:90px;
+    color:white;
+    background-color:darkkhaki;
+    height:40px;
+    width:160px;
+    border-radius:7px;
+    font-size:20px;
+    border:none;
+}
+
+.main .hide{
+    display:none;
+} 
+.reset{
+    position:absolute;
+    margin-top:50px;
+    color:white;
+    background-color:rgb(192, 187, 121);
+    height:40px;
+    width:160px;
+    border-radius:7px;
+    left:30%;
+    font-size:20px;
+    border:none;
+}
+.restartBtn:hover{
+background-color:rgba(189, 183, 107, 0.415);
+border:1px solid bisque;
+}
+.reset:hover{
+ background-color:rgba(205, 198, 112, 0.358);
+ border:1px solid bisque;
+}
+
+
+@media(max-width:400){
+    body{
+        background-color: red;
+    }
+}
